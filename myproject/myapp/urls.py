@@ -1,0 +1,6 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.my_table, name='my_table'),
+]
